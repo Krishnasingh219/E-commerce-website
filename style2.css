@@ -1,0 +1,73 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-logo{
+
+   
+    height: 60px;
+    width: 150px;
+    background-image: url("amazon_logo2.jpeg");
+    background-size:contain;
+    
+}
+.login_box{
+    height: 370px;
+    width: 350px;
+    
+    background-color:white;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+   
+}
+.sign{
+    padding: 16px 26px;
+    font-size: 1.5rem;
+    font: 24px arial;
+}
+.login_items{
+    padding: 20px 26px;
+}
+.input_email{
+    width: 296.67px;
+    height: 31px;
+    border: 1.5px solid black;
+    border-radius: 7px;
+}
+.input_email:hover{
+   
+    border:2px solid;
+    border-radius: 7px;
+    border-color: #c4fffc;
+    
+
+}
+
+
+.input_name{
+    font-size: 1rem;
+    font-style: 20px arial;
+}
+.button{
+    width: 296px;
+    height:30px;
+    padding: 1px 6px;
+    margin-top: 40px;
+    background-color:#e4c641;
+    border: 2px solid #e4c641;
+    border-radius: 4px;
+}
+button:hover{
+    background-color:#de972d;
+    border-color: #de972d;
+}
+.terms{
+    margin-top: 12px;
+    font-size: .8rem;
+
+}

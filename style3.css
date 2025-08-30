@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.company{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.apple{
+    background-size: contain;
+
+}
+.mobile:hover{
+    border: 2px solid black;
+
+}
+.mobile_details{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 20px;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    
+}
+.mobile_image{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
